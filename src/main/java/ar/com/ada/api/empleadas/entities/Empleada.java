@@ -1,13 +1,20 @@
 package ar.com.ada.api.empleadas.entities;
 
 import java.math.BigDecimal;
-import java.sql.Date;
+import java.util.*;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "empleada")
 public class Empleada {
+
+    public Empleada(String nombre, Integer edad, BigDecimal sueldo, Date fechaAlta) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sueldo = sueldo;
+        this.fechaAlta = fechaAlta;
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
