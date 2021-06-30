@@ -16,6 +16,10 @@ public class Empleada {
         this.fechaAlta = fechaAlta;
     }
 
+    public Empleada() {
+        
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "empleada_id")
