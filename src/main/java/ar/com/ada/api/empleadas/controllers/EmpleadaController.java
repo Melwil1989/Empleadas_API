@@ -64,6 +64,10 @@ public class EmpleadaController {
                                                                                   // valor que esta entre llaves
         Empleada empleada = service.buscarEmpleada(id);
 
+        if(empleada == null) {
+            return ResponseEntity.notFound().build();
+        }
+
         return ResponseEntity.ok(empleada);
     }
 
