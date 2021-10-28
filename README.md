@@ -13,14 +13,14 @@
 3. Hibernate
 4. MySQL
 
-#### Deploy
+#### Deploy (con Heroku)
 
 https://ada-empleadas-mw.herokuapp.com/
 
 #### Documentación Postman
 
-https://web.postman.co/workspace/f489c586-9526-482c-817a-e53fe9983fc9/documentation/16169865-85822124-5acd-42a9-ab60-f0599ce286ea
+[Link a Postman](https://web.postman.co/workspace/f489c586-9526-482c-817a-e53fe9983fc9/documentation/16169865-85822124-5acd-42a9-ab60-f0599ce286ea)
 
 #### Esquema de la base de datos
 
-![EsquemaEmpleadas](https://user-images.githubusercontent.com/79877606/138912230-5228932a-0fbf-4420-9bd2-2217c3116bdd.png)
+![EsquemaEmpleadas](https://user-images.githubusercontent.com/79877606/139276118-986d81fe-d1af-4933-aa11-bb2434dfd396.png)
